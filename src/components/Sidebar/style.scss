@@ -1,0 +1,17 @@
+.sidebar {
+    padding-top: 2.4rem;
+    width: 5.2rem;
+    height: 100vh;
+    background: #550DC9;
+    box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.1);
+
+    &__menu {
+        width: 100%;
+        height: 3.2rem;
+        background: #440BA0;
+
+        &-icon {
+            margin: 0.8rem 1.8rem;
+        }
+    }
+}

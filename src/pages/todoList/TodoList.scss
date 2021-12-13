@@ -1,0 +1,50 @@
+.wrapper {
+    display: flex;
+    padding: 2.4rem 6.4em 0 2.4rem;
+}
+
+.left_column {
+    margin-right: 6.4rem;
+
+    &-input {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.completed__counter {
+    margin-bottom: 0.8rem;
+    width: 9rem;
+    height: 1.7rem;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: #0DC958;
+    background: #F6FFF9;
+    border-radius: 4px;
+}
+
+.uncompleted__counter {
+    margin: 1.2rem 0 1.6rem 0;
+    width: 5rem;
+    height: 1.7rem;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color: #0D9CC9;
+    background: #F6FCFF;
+    border-radius: 4px;
+}
+
+.total__counter {
+        margin: 1.2rem 0 1.6rem 0;
+        width: 5rem;
+        height: 1.7rem;
+        text-align: center;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        color: #550DC9;
+        background: #FEF6FF;
+        border-radius: 4px;
+}
+

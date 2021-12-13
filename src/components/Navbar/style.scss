@@ -1,0 +1,53 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.1);
+
+    &__title {
+        display: flex;
+    }
+
+    &__logo {
+        padding: 1.5rem 4.2rem 1.6rem 1.6rem;
+
+        &-img {
+            padding-bottom: 0.2rem;
+        }
+
+        &-description {
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+        }
+    }
+
+    &__logo-description {
+        font-size: 0.6rem;
+        line-height: 0.7rem;
+    }
+
+    &__logo-text {
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+        font-weight: bold;
+        padding-top: 2.2rem;
+    }
+
+    &__profile {
+        display: flex;
+        align-items: center;
+
+        &-avatar {
+            padding: 1.6rem 1.1rem 1.6rem 0.8rem;
+        }
+
+        &-username {
+            font-size: 1.4rem;
+            line-height: 1.9rem;
+        }
+
+        &-menu {
+            padding-right: 2.7rem;
+        }
+    }
+}

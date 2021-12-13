@@ -1,0 +1,23 @@
+.input {
+    
+    &__field {
+        width: 116rem;
+        height: 3.4rem;
+        border: 1px solid #ECECEC;
+        border-radius: 0.4rem;
+
+        &-empty {
+            width: 116rem;
+            height: 3.4rem;
+            border: 1px solid #fa0a0a;
+            border-radius: 0.4rem;
+        }
+
+        &::placeholder {
+            padding-left: 1rem; 
+            color: #CACACA;
+            font-size: 1.4rem;
+            line-height: 1.9rem;
+        }
+    }
+}

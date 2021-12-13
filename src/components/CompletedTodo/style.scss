@@ -1,0 +1,30 @@
+.completed-todos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.6rem;
+    width: 52.8rem;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.08);
+    border-radius: 0.4rem;
+    
+    &__content {
+        display: flex;
+        align-items: center;
+
+        &-checkbox {
+            margin: 0 0.8rem 0 1.2rem;
+            border: 0.1rem solid #ECECEC;
+            border-radius: 0.4rem;
+        }
+
+        &-text {
+            font-size: 1.4rem;
+            line-height: 1.9rem;
+            text-decoration: line-through;
+        }
+    }
+
+    &__icons {
+        margin: 1.5rem;
+    }
+}
