@@ -1,5 +1,5 @@
 ## ToDoList
-https://www.figma.com/file/NHSzGCcAwNntBhE2xc3HV7/To-Do-(Copy)?node-id=0%3A1
+https://www.figma.com/file/NHSzGCcAwNntBhE2xc3HV7/React-To-Do?node-id=0%3A1
 
 ## Technologies and tools
 * ReactJS
